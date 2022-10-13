@@ -10,7 +10,7 @@ Simple python script created to demonstrate typical workflow of importing x y z 
 
 **Plaxis3D surface.p3d** is the Plaxis 3D project file with surface data already imported. Screenshot as follows:
 
-![Plaxis3D surface](Plaxis3D surface.JPG)
+![Plaxis3D surface](https://github.com/subsurfaceiodev/Plaxis-3D-point-cloud-tutorial/raw/main/Plaxis3D%20surface.JPG)
 
 If you want to import a Civil 3D surface to Plaxis 3D then using Toolbox->Reports->Surface->Surface Points to CSV is recommended to get raw x y z surface data.
 
