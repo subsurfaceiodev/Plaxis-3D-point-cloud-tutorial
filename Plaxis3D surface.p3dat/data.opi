@@ -1,0 +1,16 @@
+﻿[Project]
+Description=
+Company=only @ ::LAVTeam:: (R)
+Version=45
+GravityDirection=3
+Comment=
+AssociatedProjectID={00000000-0000-0000-0000-000000000000}
+PreviewFile=
+UnitLength=m
+UnitForce=kN
+UnitTime=day
+UnitMass=t
+UnitTemperature=K
+UnitEnergy=kJ
+UnitPower=kW
+

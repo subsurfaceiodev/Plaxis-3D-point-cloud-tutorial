@@ -1,0 +1,13 @@
+﻿##~ running Plaxis3DInput.exe 20.4.0.790
+_initializerectangular SoilContour 0 0 12 8
+_setproperties "Title" "" "Company" "only @ ::LAVTeam:: (R)" "Comments" "" "UnitForce" "kN" "UnitLength" "m" "UnitTime" "day" "WaterWeight" 10 "ReferenceTemperature" 293.15 "LiquidSpecificHeatCapacity" 4181.3 "LiquidThermalConductivity" 0.0006 "LiquidLatentHeat" 334000 "LiquidThermalExpansion" 0.00021 "LiquidTemperature" 293.15 "IceSpecificHeatCapacity" 2108 "IceThermalConductivity" 0.00222 "IceThermalExpansion" 5E-5 "VapourSpecificHeatCapacity" 1930 "VapourThermalConductivity" 2.5E-5 "VapourSpecificGasConstant" 461.5 "UseTemperatureDepWaterPropsTable" False "ModelType" "Full" "ElementType" "10-Noded"
+_gotostructures
+_importpointcloud "C:\Users\Jorge\PycharmProjects\Plaxis-3D-point-cloud-tutorial\point_cloud_data.txt"
+_set NURBSSurface_1.GridPointCountRows 100
+_set NURBSSurface_1.GridPointCountColumns 100
+_save "C:\Users\Jorge\PycharmProjects\Plaxis-3D-point-cloud-tutorial\Plaxis3D surface.p3d"
+_set NURBSSurface_1.GridPointCountRows 150
+_set NURBSSurface_1.GridPointCountColumns 150
+_save "C:\Users\Jorge\PycharmProjects\Plaxis-3D-point-cloud-tutorial\Plaxis3D surface.p3d"
+_set NURBSSurface_1.GridPointCountRows 200
+_set NURBSSurface_1.GridPointCountColumns 200
